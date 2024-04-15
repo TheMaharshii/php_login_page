@@ -14,7 +14,7 @@
         <label for="password">Password:</label>
        <input type="password" name="password" id="password">
        <input type="submit" value="Login" class="button">
-       <a href="register.html"><input type="button" value="Register?" class="button"> </a>
+       <a href="register.php"><input type="button" value="Register?" class="button"> </a>
      </form>
     </div>
 

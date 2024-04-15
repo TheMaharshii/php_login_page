@@ -5,6 +5,8 @@ body {
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  flex-direction: column;
+  gap: 30px;
   background-color: antiquewhite;
 }
 
@@ -50,4 +52,15 @@ form label {
 
 .button:hover {
   transform: scale(1.25);
+}
+
+.success-message {
+  color: green;
+  font-weight: bold;
+}
+
+.login-link {
+  color: rgb(8, 197, 36);
+  font-size: 3rem;
+  font-weight: bold;
 }

@@ -8,6 +8,6 @@
   </head>
   <body>
     <h1>Welcome home, <?php echo htmlspecialchars($_GET['username']); ?></h1>
-    <a href="index.php">Logout</a>
+    <a href="index.php" class="login-link">Logout</a>
   </body>
 </html>
